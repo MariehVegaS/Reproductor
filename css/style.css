@@ -149,4 +149,20 @@ display: grid;
   fill: #ff564c;
 }
 
+@media only screen and (max-width: 375px) {
+
+  #content {
+    padding:0px;
+  }
+
+  #display {
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 375px auto 50px;
+    grid-template-areas: "image" "options" "footer";
+    background: #111111;
+  }
+
+}
+
 /*# sourceMappingURL=style.css.map */
