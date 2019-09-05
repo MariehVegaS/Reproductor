@@ -17,6 +17,11 @@ body {
   padding-top: 30px;
 }
 
+#contentImg  img{
+  height: 366px;
+  width: 366px;
+}
+
 #display {
   max-width: 366px;
   max-height: 650px;
@@ -26,19 +31,30 @@ body {
 }
 
 #header {
-  background-image: url("../assets/img/groupImage.gif");
-  background-size: 100% 100%;
-  min-height: 366px;
-  min-width: 366px;
+  position: absolute;
+  padding: 25px;
   display: flex;
-  justify-content: flex-start;
   flex-flow: row;
   flex: 100%;
 }
+
+#header .space{
+  width: 280px;
+}
+
 #header .search {
   right: 0;
+  cursor: pointer;
+}
+#header .search svg, #header .menu svg{
+  width: 16px;
+  height: 16px;
+}
+#header .search svg path, #header .menu svg path{
+  fill: #959595;
 }
 #header .menu {
+  cursor: pointer;
   display: flex;
   justify-content: left;
 }

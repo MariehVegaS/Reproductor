@@ -15,7 +15,6 @@ body{
     padding-top: 30px; 
 }
 #display{
-    
     max-width: 366px;
     max-height: 650px;
     width: 100%;
@@ -23,8 +22,11 @@ body{
     background:#111111;
     
 }
+#contentImg {
+    min-height: 366px;
+    min-width: 366px;
+}
 #header {
-    background-image: url("../assets/img/groupImage.gif");
     background-size: 100% 100%;
     min-height: 366px;
     min-width: 366px;

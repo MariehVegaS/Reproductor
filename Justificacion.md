@@ -3,7 +3,7 @@
 **Integrantes:**
  - Juan David Arboleda
  - Valentina Vega
- - 
+ 
 ## División de componentes (div)
 
 - **content:** Es el contenedor base que se va a encargar de centrar la pantalla principal cuándo se visualice en desktop.
