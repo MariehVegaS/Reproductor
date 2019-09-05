@@ -8,6 +8,11 @@ body {
   background: #ff564c;
 }
 
+#footer .elementFot{
+  align-self: center;
+  justify-self: center;
+}
+
 #content {
   display: flex;
   justify-content: center;
@@ -76,9 +81,6 @@ path{
   cursor: pointer;
   display: flex;
   justify-content: left;
-}
-#header svg path {
-  fill: white;
 }
 
 /*# sourceMappingURL=style.css.map */
