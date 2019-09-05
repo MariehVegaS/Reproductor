@@ -30,6 +30,26 @@ body {
   background: #111111;
 }
 
+#footer {
+  bottom: 0;
+  position: fixed;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 366px;
+  height: 50px;
+}
+
+#options .titleOption h3 {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+#options .subTitle {
+  color: darkgray;
+  width: 100%;
+  text-align: center;
+}
+
 #header {
   position: absolute;
   padding: 25px;
@@ -41,7 +61,6 @@ body {
 #header .space{
   width: 280px;
 }
-
 #header .search {
   right: 0;
   cursor: pointer;
@@ -50,7 +69,7 @@ body {
   width: 16px;
   height: 16px;
 }
-#header .search svg path, #header .menu svg path{
+path{
   fill: #959595;
 }
 #header .menu {
