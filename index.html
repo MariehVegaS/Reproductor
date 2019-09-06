@@ -7,11 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reproductor</title>
     <link rel="stylesheet" href="./css/style.css">
-
+    <script src="src/models/AudioPlayer.js"></script>
+    <script src="src/main.js"></script>
 </head>
 
-<body>
+<body onload="startApp()">
     <div id="content">
+            <audio id="audio">
+                    <source src="./assets/audio/David Garrett - Viva La Vida.mp3" type="audio/mpeg">
+            </audio>
         <div id="display">
             <div id="header">
                 <div class="menu">
@@ -48,13 +52,14 @@
                             <path fill="#000000" d="M9 2.5v5l5-5v11l-5-5v5l-5.5-5.5z"></path>
                         </svg>
                     </div>
-                    <div id="play" onclick="play()">
+                    <div id="play" onclick="reproducir()">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             width="16" height="16" viewBox="0 0 16 16">
                             <path fill="#000000" d="M3 2l10 6-10 6z"></path>
                         </svg>
                     </div>
-                    <div id="pause" onclick="pause()">
+                
+                    <div id="pause"  onclick="pausar()">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             width="16" height="16" viewBox="0 0 16 16">
                             <path fill="#000000" d="M2 2h5v12h-5zM9 2h5v12h-5z"></path>
@@ -106,19 +111,5 @@
         </div>
     </div>
 </body>
-
-<script>
-
-function play(){
-    //Aquí desaparece el botón play, y aparece el botón pause
-    //Además de reproducir el audio
-}
-
-function pause(){
-    //Aquí desaparece el botón pause, y aparece el botón play
-    //Además de detener el audio
-}
-
-</script>
 
 </html>
