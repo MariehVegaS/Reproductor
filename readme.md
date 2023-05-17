@@ -6,6 +6,7 @@
 
 ## Bocetos
 
+![skecth](https://github.com/MariehVegaS/audio-player-design/assets/img/sketch.PNG)
  
 ## División de componentes (div)
 
