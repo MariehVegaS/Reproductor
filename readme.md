@@ -6,7 +6,6 @@
 
 ## Bocetos
 
-[Grid and Flexbox (Link de imagen compartida)](https://drive.google.com/open?id=1-vorxn-hU_7E2KpZeY8QbEkeFvoBPy-L)
  
 ## División de componentes (div)
 
@@ -19,12 +18,8 @@
 
 ## Flexbox
 
-[Flexbox (Link de imagen compartida)](https://drive.google.com/open?id=1-sfWH8D86o5SUvKBpeDKLbG-VvURpFYe)
-
 No se escogió debido a que para llevar a cabo el diseño, serían necesarias más cajas (div) para poder ubicar cada elemento en la posición deseada. A pesar de esto, podría se una opción viable en cuánto a que no hay tantos componentes a organizar, por lo que podemos depender del orden del html (se puede dividir en secciones que van una abajo de otra) con ayuda de cajas de apoyo, encargadas de ubicar finalmente el componente en su sitio, ya sea centrar o enviar a un extremo. Con las funciones propias de este tipo de display y con las cajas necesarias podemos lograr la ubicación deseada cómo se plantea en el boceto.
 
 ## Grid
-
-[Grid (Link de imagen compartida)](https://drive.google.com/open?id=1-t4z4DPHhuWAWrXI5VO-Kt_iu0eyiH-S)
 
 Finalmente este tipo de display, nos propone una mejor opción al simplificar el diseño con sólo las cajas necesarias. También nos presenta un ventaja en cuánto a no depender del orden del html gracias a la asignación de áreas donde podemos ubicar fácilmente nuestras cajas. Mediante la creación de columnas y filas con tamaños predefinidos podemos obtener la posición deseada de forma más sencilla y directa sin intervención de cajas de apoyo, con sólo centrar y ubicar las div en cada una de ellas, permitiendo a su vez que cada componente individual pueda contar con su propio tamaño o adaptarse a la fila o columna a la que pertenece.
